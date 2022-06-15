@@ -107,14 +107,15 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
+
                 <com.google.android.material.button.MaterialButton
+                    style="?attr/borderlessButtonStyle"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="See more"
                     android:textAllCaps="false"
-                    style="?attr/borderlessButtonStyle"
-                    android:textSize="12dp">
-                </com.google.android.material.button.MaterialButton>
+                    android:textSize="12dp"
+                    tools:ignore="TouchTargetSizeCheck"></com.google.android.material.button.MaterialButton>
             </LinearLayout>
         </LinearLayout>
     </com.google.android.material.card.MaterialCardView>
