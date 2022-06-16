@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".blogPage">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/blogDetails"
+        android:layout_margin="10dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/blogTitle"
+            android:text="Title"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Headline4"
+            android:textColor="@color/black"
+            android:padding="10dp"
+            />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="194dp"
+            android:id="@+id/blogImage"
+            android:layout_below="@+id/blogTitle"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/blogDescription"
+            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi gravida vehicula magna. Nulla imperdiet diam ac orci consequat blandit. Donec semper neque arcu, nec laoreet dolor dictum vel. Nulla nec posuere est. Pellentesque et mauris id urna commodo feugiat eget id turpis. Suspendisse convallis sem non turpis ultricies, sed fringilla urna euismod."
+            android:layout_below="@id/blogImage"
+            android:padding="10dp"
+            android:textAppearance="@style/TextAppearance.Material3.BodyMedium"
+            />
+    </RelativeLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/getLocationBtn"
+        android:layout_below="@id/blogDetails"
+        style="?attr/borderlessButtonStyle"
+        android:text="Get Location"
+        android:textColor="@color/purple_200"
+        android:layout_margin="10dp"
+        android:textAllCaps="false"
+        />
+
+
+
+
+</RelativeLayout>
