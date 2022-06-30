@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".udupi">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/blogDetails"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/blogTitle"
+                android:text="Udupi"
+                android:textAppearance="?attr/textAppearanceHeadline6"
+                android:textColor="@color/black"
+                android:padding="10dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="194dp"
+                android:src="@drawable/udupi"
+                android:scaleType="centerCrop"
+                android:id="@+id/blogImage"
+                android:layout_below="@+id/blogTitle"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/blogDescription"
+                android:text="Udupi is a city in the southwest Indian state of Karnataka. It's known for its Hindu temples, including the huge, 13th-century Sri Krishna Temple, which houses a statue of Lord Krishna and attracts many pilgrims. Nearby, the ancient Anantheshwara Temple is dedicated to the god Shiva. The Corporation Bank Heritage Museum features coins dating from 400 BC, plus stamps and displays about India’s banking industry."
+                android:layout_below="@id/blogImage"
+                android:padding="10dp"
+                android:textAppearance="@style/TextAppearance.Material3.BodyMedium"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/blogDescription"
+                android:layout_marginHorizontal="@dimen/cardview_default_elevation"
+                style="?attr/borderlessButtonStyle"
+                android:text="Get Location"
+                android:textAllCaps="false"/>
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+</ScrollView>

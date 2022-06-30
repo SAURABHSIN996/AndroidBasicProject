@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".chikmangalur">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/blogDetails"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/blogTitle"
+                android:text="Chikmangalur"
+                android:textAppearance="?attr/textAppearanceHeadline6"
+                android:textColor="@color/black"
+                android:padding="10dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="194dp"
+                android:src="@drawable/chikmangalur"
+                android:scaleType="centerCrop"
+                android:id="@+id/blogImage"
+                android:layout_below="@+id/blogTitle"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/blogDescription"
+                android:text="Chikmagalur is a hill station in Karnataka, a state in southwest India. To the north is Baba Budangiri, a mountain range in the Western Ghats, with 3 large caves said to be holy. Trails through forests and grasslands lead up to Mullayanagiri Peak. The cascading Hebbe Falls lie in an area of coffee plantations. The forested Bhadra Wildlife Sanctuary, northwest of Chikmagalur, is home to elephants, tigers and leopards."
+                android:layout_below="@id/blogImage"
+                android:padding="10dp"
+                android:textAppearance="@style/TextAppearance.Material3.BodyMedium"/>
+            
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/blogDescription"
+                android:layout_marginHorizontal="@dimen/cardview_default_elevation"
+                style="?attr/borderlessButtonStyle"
+                android:text="Get Location"
+                android:textAllCaps="false"/>
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+</ScrollView>

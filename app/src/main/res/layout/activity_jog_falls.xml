@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".jogFalls">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/blogDetails"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/blogTitle"
+                android:text="Jog Falls"
+                android:textAppearance="?attr/textAppearanceHeadline6"
+                android:textColor="@color/black"
+                android:padding="10dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="194dp"
+                android:src="@drawable/jog_falls"
+                android:scaleType="centerCrop"
+                android:id="@+id/blogImage"
+                android:layout_below="@+id/blogTitle"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/blogDescription"
+                android:text="Jog Falls is a waterfall on the Sharavati river located in the Western Ghats of Sagar Taluk of Shivamogga District, Karnataka, India. It is the third highest plunge waterfall in India.It is a segmented waterfall which depends on rain and season becomes a plunge waterfall. The falls are major attractions for tourists and is ranked 36th in the list of free-falling waterfalls, 490th in the world by list of waterfalls by total height, 128th in the list of single-drop waterfalls in the World by the waterfall database."
+                android:layout_below="@id/blogImage"
+                android:padding="10dp"
+                android:textAppearance="@style/TextAppearance.Material3.BodyMedium"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/blogDescription"
+                android:layout_marginHorizontal="@dimen/cardview_default_elevation"
+                style="?attr/borderlessButtonStyle"
+                android:text="Get Location"
+                android:textAllCaps="false"/>
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+</ScrollView>
