@@ -10,7 +10,7 @@
     tools:context=".MainActivity2">
 
     <com.google.android.material.card.MaterialCardView
-        android:id="@+id/firstcard"
+        android:id="@+id/nandiHills"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
@@ -24,6 +24,7 @@
             <!--media-->
             <ImageView
                 android:layout_width="match_parent"
+                android:src="@drawable/nandi_hills"
                 android:layout_height="194dp"
                 android:scaleType="centerCrop"
                 />
@@ -36,14 +37,14 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Title"
+                    android:text="Nandi hills"
                     android:textAppearance="?attr/textAppearanceHeadline6"
                     />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="16dp"
-                    android:text="lorem ipsum and stuffqui dolorem ipsum, quia dolor sit amet "
+                    android:text="Nandi Hills, or Nandidurg, is a hill fortress in the south Indian state of Karnataka."
                     android:textAppearance="@style/TextAppearance.MaterialComponents.Body2"
                     />
             </LinearLayout>
@@ -55,6 +56,7 @@
                 <com.google.android.material.button.MaterialButton
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:id="@+id/nandibtn"
                     android:text="See more"
                     android:textAllCaps="false"
                     style="?attr/borderlessButtonStyle"
@@ -65,8 +67,8 @@
     </com.google.android.material.card.MaterialCardView>
 
     <com.google.android.material.card.MaterialCardView
-        android:id="@+id/secondcard"
-        android:layout_below="@id/firstcard"
+        android:id="@+id/chikmangalur"
+        android:layout_below="@id/nandiHills"
         android:layout_marginTop="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -83,6 +85,7 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="194dp"
+                android:src="@drawable/chikmangalur"
                 android:scaleType="centerCrop"/>
 <!--            text-->
             <LinearLayout
@@ -94,14 +97,14 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Title"
+                    android:text="Chikmangalur"
                     android:textAppearance="?attr/textAppearanceHeadline6"
                     />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="16dp"
-                    android:text="lorem ipsum and stuffqui dolorem ipsum, quia dolor sit amet "
+                    android:text="To the north is Baba Budangiri, a mountain range in the Western Ghats, with 3 large caves said to be holy."
                     android:textAppearance="@style/TextAppearance.MaterialComponents.Body2"
                     />
             </LinearLayout>
@@ -115,6 +118,7 @@
                     style="?attr/borderlessButtonStyle"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:id="@+id/chikmangalurbtn"
                     android:text="See more"
                     android:textAllCaps="false"
                     android:textSize="12dp"
@@ -124,8 +128,8 @@
     </com.google.android.material.card.MaterialCardView>
 
     <com.google.android.material.card.MaterialCardView
-        android:id="@+id/thirdcard"
-        android:layout_below="@id/secondcard"
+        android:id="@+id/hampi"
+        android:layout_below="@id/chikmangalur"
         android:layout_marginTop="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -142,6 +146,7 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="194dp"
+                android:src="@drawable/hampi"
                 android:scaleType="centerCrop"/>
             <!--            text-->
             <LinearLayout
@@ -153,14 +158,14 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Title"
+                    android:text="Hampi"
                     android:textAppearance="?attr/textAppearanceHeadline6"
                     />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="16dp"
-                    android:text="lorem ipsum and stuffqui dolorem ipsum, quia dolor sit amet "
+                    android:text="Hampi is an ancient village in the south Indian state of Karnataka. It’s dotted with numerous ruined temple complexes from the Vijayanagara Empire."
                     android:textAppearance="@style/TextAppearance.MaterialComponents.Body2"
                     />
             </LinearLayout>
@@ -172,6 +177,7 @@
                 <com.google.android.material.button.MaterialButton
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:id="@+id/hampibtn"
                     android:text="See more"
                     android:textAllCaps="false"
                     style="?attr/borderlessButtonStyle"
@@ -182,8 +188,8 @@
     </com.google.android.material.card.MaterialCardView>
 
     <com.google.android.material.card.MaterialCardView
-        android:id="@+id/fourthcard"
-        android:layout_below="@id/secondcard"
+        android:id="@+id/coorg"
+        android:layout_below="@id/hampi"
         android:layout_marginTop="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -200,6 +206,7 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="194dp"
+                android:src="@drawable/coorg"
                 android:scaleType="centerCrop"/>
             <!--            text-->
             <LinearLayout
@@ -211,14 +218,14 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Title"
+                    android:text="Coorg"
                     android:textAppearance="?attr/textAppearanceHeadline6"
                     />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="16dp"
-                    android:text="lorem ipsum and stuffqui dolorem ipsum, quia dolor sit amet "
+                    android:text="Framed by the Western Ghats mountain range, it’s known for the Raja’s Seat, a simple monument overlooking forests and rice paddies."
                     android:textAppearance="@style/TextAppearance.MaterialComponents.Body2"
                     />
             </LinearLayout>
@@ -230,6 +237,7 @@
                 <com.google.android.material.button.MaterialButton
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:id="@+id/coorgbtn"
                     android:text="See more"
                     android:textAllCaps="false"
                     style="?attr/borderlessButtonStyle"
@@ -240,8 +248,8 @@
     </com.google.android.material.card.MaterialCardView>
 
     <com.google.android.material.card.MaterialCardView
-        android:id="@+id/fifthcard"
-        android:layout_below="@id/secondcard"
+        android:id="@+id/mangalore"
+        android:layout_below="@id/coorg"
         android:layout_marginTop="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -258,6 +266,7 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="194dp"
+                android:src="@drawable/mangalore"
                 android:scaleType="centerCrop"/>
             <!--            text-->
             <LinearLayout
@@ -269,14 +278,14 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Title"
+                    android:text="Mangalore"
                     android:textAppearance="?attr/textAppearanceHeadline6"
                     />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="16dp"
-                    android:text="lorem ipsum and stuffqui dolorem ipsum, quia dolor sit amet "
+                    android:text="Mangalore (or Mangaluru) is an Arabian Sea port and a major commercial center in the Indian state of Karnataka."
                     android:textAppearance="@style/TextAppearance.MaterialComponents.Body2"
                     />
             </LinearLayout>
@@ -288,6 +297,7 @@
                 <com.google.android.material.button.MaterialButton
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:id="@+id/mangalorebtn"
                     android:text="See more"
                     android:textAllCaps="false"
                     style="?attr/borderlessButtonStyle"
@@ -298,8 +308,8 @@
     </com.google.android.material.card.MaterialCardView>
 
     <com.google.android.material.card.MaterialCardView
-        android:id="@+id/sixthcard"
-        android:layout_below="@id/secondcard"
+        android:id="@+id/jogFalls"
+        android:layout_below="@id/mangalore"
         android:layout_marginTop="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -316,6 +326,7 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="194dp"
+                android:src="@drawable/jog_falls"
                 android:scaleType="centerCrop"/>
             <!--            text-->
             <LinearLayout
@@ -327,14 +338,14 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Title"
+                    android:text="Jog Falls"
                     android:textAppearance="?attr/textAppearanceHeadline6"
                     />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="16dp"
-                    android:text="lorem ipsum and stuffqui dolorem ipsum, quia dolor sit amet "
+                    android:text="Jog Falls is a waterfall on the Sharavati river located in the Western Ghats of Sagar Taluk of Shivamogga District, Karnataka, India."
                     android:textAppearance="@style/TextAppearance.MaterialComponents.Body2"
                     />
             </LinearLayout>
@@ -346,6 +357,7 @@
                 <com.google.android.material.button.MaterialButton
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:id="@+id/jogFallsbtn"
                     android:text="See more"
                     android:textAllCaps="false"
                     style="?attr/borderlessButtonStyle"
@@ -356,8 +368,8 @@
     </com.google.android.material.card.MaterialCardView>
 
     <com.google.android.material.card.MaterialCardView
-        android:id="@+id/seventhcard"
-        android:layout_below="@id/secondcard"
+        android:id="@+id/udupi"
+        android:layout_below="@id/jogFalls"
         android:layout_marginTop="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -374,6 +386,7 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="194dp"
+                android:src="@drawable/udupi"
                 android:scaleType="centerCrop"/>
             <!--            text-->
             <LinearLayout
@@ -385,14 +398,14 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Title"
+                    android:text="Udupi"
                     android:textAppearance="?attr/textAppearanceHeadline6"
                     />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="16dp"
-                    android:text="lorem ipsum and stuffqui dolorem ipsum, quia dolor sit amet "
+                    android:text="Udupi is a city in the southwest Indian state of Karnataka. It's known for its Hindu temples, including the huge, 13th-century Sri Krishna Temple, which houses a statue of Lord Krishna and attracts many pilgrims."
                     android:textAppearance="@style/TextAppearance.MaterialComponents.Body2"
                     />
             </LinearLayout>
@@ -404,6 +417,7 @@
                 <com.google.android.material.button.MaterialButton
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:id="@+id/udupibtn"
                     android:text="See more"
                     android:textAllCaps="false"
                     style="?attr/borderlessButtonStyle"
@@ -414,8 +428,8 @@
     </com.google.android.material.card.MaterialCardView>
 
     <com.google.android.material.card.MaterialCardView
-        android:id="@+id/eighthcard"
-        android:layout_below="@id/secondcard"
+        android:id="@+id/gokarna"
+        android:layout_below="@id/udupi"
         android:layout_marginTop="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -432,6 +446,7 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="194dp"
+                android:src="@drawable/gokarna"
                 android:scaleType="centerCrop"/>
             <!--            text-->
             <LinearLayout
@@ -443,14 +458,14 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Title"
+                    android:text="Gokarna"
                     android:textAppearance="?attr/textAppearanceHeadline6"
                     />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="16dp"
-                    android:text="lorem ipsum and stuffqui dolorem ipsum, quia dolor sit amet "
+                    android:text="Gokarna is a town on the Arabian Sea, in the southwestern Indian state of Karnataka. A popular pilgrimage destination for Hindus, it’s known for sacred sites like Mahabaleshwar Temple"
                     android:textAppearance="@style/TextAppearance.MaterialComponents.Body2"
                     />
             </LinearLayout>
@@ -462,6 +477,7 @@
                 <com.google.android.material.button.MaterialButton
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:id="@+id/gokarnabtn"
                     android:text="See more"
                     android:textAllCaps="false"
                     style="?attr/borderlessButtonStyle"
